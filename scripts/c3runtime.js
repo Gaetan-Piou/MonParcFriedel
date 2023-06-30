@@ -4596,9 +4596,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.System.Acts.AddVar,
 		C3.Plugins.System.Acts.GoToLayout,
 		C3.Plugins.AJAX.Acts.RequestFile,
-		C3.Plugins.Browser.Acts.SetHash,
 		C3.Plugins.LocalStorage.Acts.CheckItemExists,
-		C3.Plugins.Browser.Exps.Hash,
 		C3.Plugins.AJAX.Cnds.OnComplete,
 		C3.Plugins.Dictionary.Acts.JSONLoad,
 		C3.Plugins.AJAX.Exps.LastData,
@@ -4607,9 +4605,11 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.LocalStorage.Cnds.OnItemGet,
 		C3.Plugins.Arr.Acts.JSONLoad,
 		C3.Plugins.LocalStorage.Exps.ItemValue,
+		C3.Plugins.Browser.Exps.Hash,
 		C3.Plugins.Dictionary.Cnds.ForEachKey,
 		C3.Plugins.Dictionary.Exps.CurrentKey,
 		C3.Plugins.System.Acts.StopLoop,
+		C3.Plugins.Browser.Acts.SetHash,
 		C3.Plugins.LocalStorage.Cnds.OnItemMissing,
 		C3.Plugins.Dictionary.Exps.Get,
 		C3.Plugins.System.Acts.Scroll,
@@ -5089,7 +5089,6 @@ self.C3_ExpressionFuncs = [
 		},
 		() => "Money",
 		() => "QR",
-		() => "#Gr3g01jhk",
 		p => {
 			const n0 = p._GetNode(0);
 			const f1 = p._GetNode(1).GetBoundMethod();
